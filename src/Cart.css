@@ -1,0 +1,22 @@
+/* Cart.css */
+
+/* Background Image */
+.cart-container {
+    background-image: url('https://img.freepik.com/free-vector/boy-mother-shopping-grocery_1308-31160.jpg?size=626&ext=jpg&ga=GA1.2.1410688976.1693389742&semt=ais'); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333; /* Text color for visibility */
+  }
+  
+  /* Heading Styles */
+  .section-heading {
+    
+    font-size: 28px;
+    font-weight: bold; /* Make the heading bold */
+    color: #252424; /* Text color for visibility */
+  }
+  

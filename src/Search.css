@@ -1,0 +1,92 @@
+/* Search.css */
+
+/* Add background image */
+.search-container {
+  background-image: url('https://img.freepik.com/premium-vector/select-search-online-shopping-items_18660-994.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-attachment: fixed; /* Fixed background image */
+  min-height: 100vh; /* Ensure the background covers the entire viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Page Heading */
+h2 {
+  font-size: 36px;
+  color: #3b3a3a;
+  margin-bottom: 20px;
+}
+
+/* Search Form */
+form {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 300px;
+}
+
+button[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Search Results */
+.search-results {
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.product-card p {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* No Results Message */
+.search-results p {
+  font-size: 18px;
+  color: #555;
+  margin: 10px 0;
+}
