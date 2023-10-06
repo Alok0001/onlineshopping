@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start; /* Align to the left */
   text-align: center;
   padding: 20px;
   font-family: Arial, sans-serif;
@@ -52,19 +52,21 @@ button[type="submit"] {
 .search-results {
   margin-top: 20px;
   background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
-  padding: 20px;
+  padding: 10px; /* Reduced padding for smaller cards */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Smaller Product Card */
 .product-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 20px;
+  align-items: flex-start; /* Align to the left */
+  padding: 5px; /* Further reduced padding for even smaller cards */
   border: 1px solid #ddd;
   border-radius: 5px;
   margin-bottom: 10px;
+  max-width: 300px; /* Limit card width */
 }
 
 .product-card img {
@@ -73,20 +75,20 @@ button[type="submit"] {
 }
 
 .product-card h3 {
-  font-size: 24px;
+  font-size: 14px; /* Further reduced font size for titles */
   color: #333;
   margin-top: 10px;
 }
 
 .product-card p {
-  font-size: 18px;
+  font-size: 12px; /* Further reduced font size for descriptions */
   color: #555;
   margin-top: 10px;
 }
 
 /* No Results Message */
 .search-results p {
-  font-size: 18px;
+  font-size: 14px; /* Reduced font size for no results message */
   color: #555;
   margin: 10px 0;
 }
